@@ -1,0 +1,9 @@
+L1=['Iraq','Jaban','Australia','Egypt','Turkey']
+L2=['Sydney','Istanbul','Tokyo','Baghdad','Cairo']
+n1=[L1[0],L2[-2]]
+n2=[L1[1],L2[-3]]
+n3=[L1[2],L2[0]]
+n4=[L1[3],L2[-1]]
+n5=[L1[4],L2[1]]
+final_list=[n1]+[n2]+[n3]+[n4]+[n5]
+print(final_list)
